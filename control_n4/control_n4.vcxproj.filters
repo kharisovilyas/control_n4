@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ui">
+      <UniqueIdentifier>{146ceabe-be91-4e4e-bb99-19b69b47cf51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\model">
+      <UniqueIdentifier>{8010cdce-5185-49d4-a48a-24847bf2f9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\interaction">
+      <UniqueIdentifier>{4a8c11f5-f0db-436b-b7cd-29c9cb17d874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\features">
+      <UniqueIdentifier>{f01f4e16-f177-44e7-8ea6-f1bff02a6869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\menu">
+      <UniqueIdentifier>{d66ed783-5340-4886-b0eb-126e6f36ede0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="freader.cpp">
+      <Filter>Исходные файлы\interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="creader.cpp">
+      <Filter>Исходные файлы\interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="correctness.cpp">
+      <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="informing.cpp">
+      <Filter>Исходные файлы\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Исходные файлы\model</Filter>
+    </ClCompile>
+    <ClCompile Include="implementation.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="loopedMenu.cpp">
+      <Filter>Исходные файлы\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StringEnumHelper.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

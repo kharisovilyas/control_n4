@@ -1,0 +1,17 @@
+Ваш исходный текст: 
+
+aaaaaaaaaaaaaa
+aaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaa1
+Преобразованный текст: 
+{a, 13}
+{a, 14}
+{a, 24}
+{a, 8}
+{a, 22}
+{a, 32}
+{a, 26}1
